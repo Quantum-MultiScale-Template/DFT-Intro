@@ -1,0 +1,48 @@
+table, th, td {
+  border: 0px solid black;
+  background-color: ;
+  color: ;
+}
+
+.reveal h2,
+.reveal h3,
+.reveal h5,
+.reveal h6 {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+
+.reveal h1,
+.reveal h4{
+  font-family: 'Open Sans', serif;
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  letter-spacing: normal;
+}
+
+body.rise-enabled div.inner_cell>div.text_cell_render.rendered_html,
+.reveal body{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 80%;
+  letter-spacing: normal;
+}
+
+body.rise-enabled sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+  font-size: 60%;
+  letter-spacing: normal;
+}
+
+body.rise-enabled sub {
+  top: 0.2em;
+  letter-spacing: normal;
+}
+
