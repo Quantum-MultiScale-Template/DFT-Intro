@@ -1,13 +1,13 @@
-# LLNL-1
-DFT and DFT embedding: Ways to approach the mesoscopic world with ab-initio methods (without cutting corners)
+# Quantum Multiscale Schools 
+Introduction to DFT (Kohn-Sham and Orbital-Free)
 
-# How to:
+# You will be asked to
+- Be able to vizualize a jupyter notebook.
 - Anwer polls and challenges: add a new cell after the poll and insert your answer(s).
 - Submit your notebook to instructor: simply save your notebook, then git commit and push.
 
-# Your instructors:
+# Team Rutgers:
  - Michele Pavanello m.pavanello@rutgers.edu
- - Xuecheng Shao
  - Xin Chen
  - Jessica Martinez
  - Valeria Rios Vargas
