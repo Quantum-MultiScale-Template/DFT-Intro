@@ -1,0 +1,90 @@
+.reveal table {
+  border: 0px solid black;
+  background-color: "aquamarine";
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6{
+  font-family: "Open sans";
+  font-weight: 500;
+  line-height: 1;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  letter-spacing: normal;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  text-transform: none;
+}
+
+body.rise-enabled div.inner_cell>div.text_cell_render.rendered_html,
+.reveal body{
+  font-family: "Open sans";
+  font-weight: 300;
+  font-size: 80%;
+  letter-spacing: normal;
+}
+
+body.rise-enabled sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.2em;
+  font-size: 60%;
+  letter-spacing: normal;
+}
+
+body.rise-enabled sub {
+  top: 0.2em;
+  letter-spacing: normal;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  #background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  #background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 450px;
+  border-radius: 30%;
+}
+
