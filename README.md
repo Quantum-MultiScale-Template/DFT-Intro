@@ -1,5 +1,5 @@
 # Quantum Multiscale Schools 
-Introduction to DFT (Kohn-Sham and Orbital-Free)
+Introduction to DFT (Kohn-Sham and, possibly, Orbital-Free)
 
 # You will be asked to
 - Be able to vizualize a jupyter notebook.
@@ -8,6 +8,6 @@ Introduction to DFT (Kohn-Sham and Orbital-Free)
 
 # Team Rutgers:
  - Michele Pavanello m.pavanello@rutgers.edu
- - Xin Chen
+ - Bhaskar Rana
  - Jessica Martinez
  - Valeria Rios Vargas
