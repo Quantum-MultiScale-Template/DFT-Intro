@@ -1,0 +1,13 @@
+
+---
+
+### `.gitignore`
+```gitignore
+__pycache__/
+*.pyc
+*.log
+*.out
+*.npy
+*.txt
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
