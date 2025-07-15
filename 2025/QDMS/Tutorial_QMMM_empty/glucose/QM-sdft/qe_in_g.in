@@ -1,0 +1,17 @@
+&SYSTEM
+   ibrav            = 0
+   nat              = 24
+   ntyp             = 3
+   ecutwfc          = 40
+   ecutrho          = 400
+   nosym            = .true.
+   occupations      = 'smearing'
+   degauss          = 0.05
+   smearing         = 'gaussian'
+/
+&ELECTRONS
+   electron_maxstep = 1
+   conv_thr         = 1e-08
+   mixing_beta      = 0.7
+/
+

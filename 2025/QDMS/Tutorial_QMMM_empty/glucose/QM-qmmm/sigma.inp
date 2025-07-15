@@ -1,0 +1,2 @@
+0.25  0.5 0.2 2.5 0.5  # sigma grid, sigma neg, sigma pos, scale_neg, scale_pos
+#0.60  1.0 1.0 1.0 0.20  # sigma grid, sigma neg, sigma pos, scale_neg, scale_pos
