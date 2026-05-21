@@ -1,13 +1,42 @@
+# miniASESMA2026: track only notebooks (*.ipynb) and figures (images).
+# Everything else below is simulation/output junk.
 
----
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-### `.gitignore`
-```gitignore
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Python
 __pycache__/
 *.pyc
-*.log
+
+# QE / QEPy / DFTpy run outputs
 *.out
+*.log
+*.dat
+*.xml
+*.in
+*.eigen
+*.UPF
+*.vasp
+*.recpot
+*.h5
 *.npy
+*.wfc
+*.plot.dat
+tmp/
+**/tmp/
+*.save/
+pwscf.save/
+pwscf.xml
+
+# Exported slides / HTML (optional generated files)
+*.slides.html
+*.html
+
+# Text data (paw.txt, etc.) — not needed in repo
 *.txt
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
